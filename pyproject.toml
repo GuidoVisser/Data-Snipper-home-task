@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "datasnipper-hometask"
+version = "0.1.0"
+description = "Finetune a DistilBert model on the Finer-139 data set and convert the model to ONNX format. As a bonus, create a C# application for the inference of the ONNX model."
+authors = ["Guido <guido-visser@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.2.0"
+transformers = "^4.37.2"
+pandas = "^2.2.0"
+tqdm = "^4.66.1"
+scikit-learn = "^1.4.0"
+numpy = "^1.26.4"
+pyarrow = "^15.0.0"
+datasets = "^2.16.1"
+onnxruntime = "^1.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
