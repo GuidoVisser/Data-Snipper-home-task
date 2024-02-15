@@ -7,3 +7,4 @@ models/
 */.vs/*
 */obj/*
 */bin/*
+onnx_models/*

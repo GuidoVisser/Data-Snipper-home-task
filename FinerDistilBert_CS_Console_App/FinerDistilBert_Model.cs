@@ -27,7 +27,7 @@ namespace FinerDistilBert
         string GetDefaultModelLocation()
         {
             var currentPath = System.IO.Directory.GetCurrentDirectory();
-            var modelPath = "\\..\\..\\..\\..\\models\\onnx\\DataSnipper_FinerDistilBert.onnx";
+            var modelPath = "\\..\\..\\..\\..\\onnx_models\\DataSnipper_FinerDistilBert.onnx";
 
             var combined = currentPath + modelPath;
 
