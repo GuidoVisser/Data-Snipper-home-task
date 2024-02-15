@@ -2,3 +2,8 @@
 *.pyc
 .vscode/
 data/
+models/
+*.vsidx
+*/.vs/*
+*/obj/*
+*/bin/*
